@@ -1,25 +1,27 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Entry point
+ *main function determines if the number is +,- or 0
  *
+ * return 0
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
+		int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+		srand(time(0));
 
-	if (n == 0)
-		printf("%d is zero\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
-	else
-		printf("%d is positive\n", n);
+		n = rand() - RAND_MAX / 2;
 
-	return (0);
+		if (n > 0)
+			printf("%d is positive\n", n);
+		else if (n < 0)
+			printf("%d is negative\n", n);
+		else
+			printf("%d is zero\n", n);
+		/* your code goes there */
+		return (0);
 }
