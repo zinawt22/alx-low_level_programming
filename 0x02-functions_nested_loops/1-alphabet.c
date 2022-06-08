@@ -2,11 +2,11 @@
 
 
 /**
- * main - starting point
+ * print_alphabet: prints alphabet with lowercase
  *
- * void method print_alphabet
- * returns nothing
+ * Return: and returns 0.
  */
+
 void print_alphabet(void)
 {
 char alphabet;

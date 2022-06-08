@@ -2,12 +2,9 @@
 
 
 /**
- * main.h - starting point
- *
- * main method takes void
- * returns 0
+ * main - starting point
+ * returns nothing
  */
-
 
 int main(void)
 {
@@ -23,3 +20,5 @@ _putchar('\n');
 
 return (0);
 }
+
+
