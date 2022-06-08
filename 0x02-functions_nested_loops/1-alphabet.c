@@ -4,10 +4,9 @@
 /**
  * main - starting point
  *
- * void method print_alphabet 
+ * void method print_alphabet
  * returns nothing
  */
-
 void print_alphabet(void)
 {
 char alphabet;
