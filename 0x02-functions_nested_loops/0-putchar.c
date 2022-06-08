@@ -1,6 +1,14 @@
 #include "main.h"
 
 
+/**
+ * main.h - starting point
+ *
+ * main method takes void
+ * returns 0
+ */
+
+
 int main(void)
 {
 _putchar('_');
