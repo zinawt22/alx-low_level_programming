@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _abs - value absolute
+ * _abs - calculate absolute value function
  *
- *@n: The int to print
- * Return: Always 0.
+ *@n: assigned int variable in to print in abs value
+ * Return: returns 0.
  */
 
 int _abs(int n)

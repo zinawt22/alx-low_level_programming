@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - Return 1 if c is a letter. lowercase or uppercase
+ * _isalpha - if c is a letter, return 1.
  *
- *@c: The int to print
- * Return: Always 0.
+ *@c: int variable assigned is alpha
+ * Return: returns 0.
  */
 
 int _isalpha(int c)
@@ -22,3 +22,4 @@ return (0);
 }
 
 }
+

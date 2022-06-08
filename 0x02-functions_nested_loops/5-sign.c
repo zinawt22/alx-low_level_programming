@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - return 0 letter not lowercase, 1 letter lowercase
+ * print_sign - takes parameter n and compare it to 0
  *
- *@n: the int to print
- * Return: Always 0.
+ *@n: is an int variable declared in print_sign
+ * Return: returns 0.
  */
+
 int print_sign(int n)
 {
 if (n > 0)

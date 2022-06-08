@@ -3,9 +3,9 @@
 
 /**
  * add -prints add two numbers
- *@i: print int i
- *@k: print int k
- * Return: Always 0.
+ *@i: variable i with int value
+ *@k: variable k wiht int value
+ * Return: returns i + k.
  */
 
 int add(int i, int k)

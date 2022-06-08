@@ -1,9 +1,12 @@
 #include "main.h"
+
+
 /**
- * times_table -prints tables
+ * times_table -prints table times
  *
- * Return: Always 0.
+ * Return: returns 0.
  */
+
 void times_table(void)
 {
 int a;
@@ -45,3 +48,4 @@ _putchar (' ');
 _putchar ('\n');
 }
 }
+
